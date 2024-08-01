@@ -14,15 +14,15 @@
     <header>
         <div class="container">
             <div class="header row">
-                <a class="col-3" href="index.php">
+                <a class="col-sm-3 col-6 offset-sm-0 offset-1" href="index.php">
                     <img src="./assets/images/logo.png" alt="Logo-SUNCAR">
                 </a>
-                <nav class="col-9">
+                <nav class="col-sm-9">
                     <ul>
-                        <li><a href="#" class="buttonNormal">Sobre o Projeto</a></li>
-                        <li><a href="#" class="buttonNormal">Protótipo</a></li>
-                        <li><a href="#" class="buttonNormal">Colaboradores</a></li>
-                        <li><a href="#" class="buttonVote">Vote agora!</a></li>
+                        <li><a href="#about" class="buttonNormal">Sobre o Projeto</a></li>
+                        <li><a href="#prototype" class="buttonNormal">Protótipo</a></li>
+                        <li><a href="#colaborators" class="buttonNormal">Colaboradores</a></li>
+                        <li><a href="#vote" class="buttonVote">Vote agora!</a></li>
                     </ul>
                 </nav>
             </div>
@@ -32,22 +32,24 @@
     <div class="hero">
         <div class="container">
             <div class="box row">
-                <div class="boxText col-8">
+                <div class="boxText col-sm-8 col-10">
                     <p class="titleOne">Projeto de Sustentabilidade</p>
                     <p class="paragraf">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    <p class="buttonHero"><a href="#" class="buttonVote">Veja o projeto agora!</a></p>
+                    <p class="buttonHero"><a href="#prototype" class="buttonVote">Veja o projeto agora!</a></p>
                 </div>
-                <img class="offset-1 col-3 imageHero" src="./assets/images/imageHero.png" alt="image-hero">
+                <img class="offset-sm-1 col-sm-3 col-10 imageHero" src="./assets/images/imageHero.png" alt="image-hero">
             </div>
         </div>
     </div>
 
+
+    <a name="about"></a>
     <div class="article container">
         <div class="box row">
-            <div class="imageArticle col-3">
+            <div class="imageArticle col-sm-3 col-10 offset-1 offset-sm-0">
                 <img src="./assets/images/imageArticle1.png" alt="solarPanel">
             </div>
-            <div class="boxText offset-1 col-8">
+            <div class="boxText offset-sm-1 col-sm-8 col-10 offset-1">
                 <p class="titleTwo">Sobre o nosso projeto <span class="yellow">SUN</span><span class="lightGreen">CAR</span></p>
                 <p class="paragrafTwo">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -56,50 +58,100 @@
         </div>
 
 
-        <div class="box row">
-            <div class="boxText col-8">
+        <div class="box boxTwo row">
+            <div class="boxText col-sm-8 col-10">
                 <p class="titleTwo">Para qual <span class="green">afinidade</span> ele serve?</p>
                 <p class="paragrafTwo">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
-            <div class="imageArticle offset-1 col-3">
+            <div class="imageArticle offset-sm-1 col-sm-3">
                 <img src="./assets/images/imageArticle2.png" alt="questionIcon">
             </div>
         </div>
     </div>
 
+    <a name="prototype"></a>
     <div class="prototype row">
-        <div class="box col-10 offset-1">
-            <img class="col-4" src="./assets/images/prototype.png" alt="image-prototype">
-            <div class="boxText col-7 offset-1">
+        <div class="box col-sm-10 offset-sm-1 col-11">
+            <img class="col-sm-4 col-10 col" src="./assets/images/prototype.png" alt="image-prototype">
+            <div class="boxText col-sm-7 offset-1">
                 <p class="titleOne">Um prótotipo do <span class="yellow">SUN</span><span class="lightGreen">CAR</span></p>
                 <p class="paragrafTwo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>
     </div>
 
+    <a name="vote"></a>
     <div class="vote container">
         <div class="box row">
-            <div class="boxText col-8">
+            <div class="boxText col-sm-8 col-11">
                 <p class="titleTwo">Gostou do nosso projeto? De seu <span class="green">feedback</span>!!!</p>
                 <p class="paragrafTwo">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
-            <div class="imageArticle col-3 offset-1">
+            <div class="imageArticle col-sm-3 offset-sm-1">
                 <img src="./assets/images/imageArticle3.png" alt="image-vote">
             </div>
         </div>
         <div class="voteForms"></div>
     </div>
 
+    <a name="colaborators"></a>
     <div class="collaborators">
         <div class="container">
             <div class="row rowTitle">
-                <p class="titleTwo col-12">Colaboradores do projeto</p>
+                <p class="titleTwo col-sm-12 col-10">Colaboradores do projeto</p>
             </div>
             <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide images-mobile col-10">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/erikombi.png" class="d-block w-100" alt="Périkles">
+                            <div class="carousel-caption d-md-block">
+                                <p class="name">Colaborador 1</p>
+                                <p class="insta">@erikon.macc</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/erikombi.png" class="d-block w-100" alt="caldoso">
+                            <div class="carousel-caption d-md-block">
+                                <p class="name">Colaborador 2</p>
+                                <p class="insta">@erikon.macc</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/erikombi.png" class="d-block w-100" alt="margarina">
+                            <div class="carousel-caption d-md-block">
+                                <p class="name">Colaborador 3</p>
+                                <p class="insta">@erikon.macc</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/erikombi.png" class="d-block w-100" alt="adrimês">
+                            <div class="carousel-caption d-md-block">
+                                <p class="name">Colaborador 4</p>
+                                <p class="insta">@erikon.macc</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
                 <div class="images">
                     <div class="collaborator">
                         <img src="./assets/images/erikombi.png" alt="collaborator-one">
@@ -128,12 +180,13 @@
 
     <div class="footer">
         <div class="container">
-            <footer>
-                <a href="index.php">
-                    <img src="./assets/images/logo.png" alt="Logo-SUNCAR">
-                </a>
-                <p class="copyright">© Copyright SUNCAR by students of ETEC Sales Gomes</p>
-                <img src="./assets/images/etecSalesGomesIcon.png" alt="Logo-ETEC">
+            <footer class="row">
+                    <a href="index.php" class="col-6 col-sm-3">
+                        <img src="./assets/images/logo.png" alt="Logo-SUNCAR">
+                    </a>
+                    <p class="copyright copyOne col-sm-6 col-6">© Copyright SUNCAR by students of ETEC Sales Gomes</p>
+                    <img src="./assets/images/etecSalesGomesIcon.png" alt="Logo-ETEC" class="col-sm-3 offset-sm-1 col-12  logo-etec">
+                    <p class="copyright copyTwo col-12">© Copyright SUNCAR by students of ETEC Sales Gomes</p>
             </footer>
         </div>
     </div>

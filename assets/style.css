@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
     --white-color: #E7f0DC;
@@ -10,16 +10,25 @@
     --quinary-color: #40592E;
 }
 
+body {
+    background-color: var(--primary-color);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
 header {
     background-color: var(--quaternary-color);
-    height: 14vh;
     align-items: center;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     font-family: 'Montserrat';
-    font-size: 14px;
+    font-size: 16px;
     color: var(--white-color);
     user-select: none;
     cursor: pointer;
@@ -27,77 +36,110 @@ nav ul li a{
     transition: 0.2s;
 }
 
-.buttonNormal:hover{
-    font-size: 16px;
+.buttonNormal:hover {
+    font-size: 18px;
     color: var(--secondary-color);
     transition: 0.2s;
 }
 
-.buttonVote{
+.buttonVote {
     background-color: var(--quinary-color);
     border-radius: 15px;
-    padding: 13px 23px;
+    padding: 20px 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.buttonVote:hover{
-    font-size: 14px;
-    padding: 14px 24px;
+.buttonVote:hover {
+    font-size: 16px;
+    padding: 17px 30px;
     background-color: var(--terniary-color);
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
     transition: 0.2s;
 }
 
 .buttonNormal:active {
-    font-size: 13px;
+    font-size: 14px;
     color: var(--quinary-color);
     transition: 0.2s;
 }
 
-.buttonVote:active{
-    font-size: 13px;
-    padding: 12px 22px;
+.buttonVote:active {
+    font-size: 16px;
+    padding: 15px 30px;
     background-color: var(--quinary-color);
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     transition: 0.2s;
 }
 
-nav ul li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+nav ul li .buttonVote {
+    margin-left: 100px;
 }
 
 nav ul {
+    display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0;
+    justify-content: space-between;
 }
 
 .hero {
-    align-items: center;
+    display: flex;
     background-image: url(./images/BackgroundHero.png);
-    height: 60vh;
+    background-size: 100% 100%;
+    min-height: 480px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.article {
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .box .row {
     align-items: center;
 }
 
-.titleOne{
+.titleOne,
+.titleTwo {
     color: var(--white-color);
     font-size: 36px;
     font-family: 'Montserrat';
     font-weight: bold;
 }
 
-.paragraf{
+.titleTwo {
+    color: var(--black-color);
+}
+
+.yellow {
+    color: #FEBD59;
+}
+
+.lightGreen {
+    color: #97E531;
+}
+
+.paragraf,
+.paragrafTwo {
     color: var(--white-color);
     font-size: 20px;
     font-family: 'Roboto';
     font-weight: normal;
+    margin-top: 10px;
 }
 
-.boxText .buttonVote{
+.paragrafTwo {
+    color: var(--black-color);
+}
+
+.buttonHero {
+    padding-top: 40px;
+}
+
+.boxText .buttonVote {
     background-color: var(--quinary-color);
     border-radius: 15px;
     padding: 15px 25px;
@@ -107,23 +149,108 @@ nav ul {
     font-family: 'Montserrat';
 }
 
-.boxText .buttonVote:hover{
+.boxText .buttonVote:hover {
     font-size: 16px;
-    padding: 18px 28px;
+    padding: 17px 30px;
     background-color: var(--terniary-color);
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
     transition: 0.2s;
 }
 
-.boxText .buttonVote:active{
-    font-size: 15px;
+.boxText .buttonVote:active {
+    font-size: 16px;
     padding: 14px 25px;
     background-color: var(--quinary-color);
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     transition: 0.2s;
 }
 
-
 .imageHero {
-    height: 35vh;
+    height: 275px;
+    width: 285px;
+}
+
+.box {
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imageArticle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prototype {
+    margin: 40px 0px;
+    background-color: var(--terniary-color);
+}
+
+.prototype .box {
+    padding: 60px 0px;
+}
+
+.vote .box {
+    padding-bottom: 40px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.rowTitle {
+    text-align: center;
+}
+
+.collaborator {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20%;
+}
+
+.collaborators {
+    background-color: var(--terniary-color);
+    padding: 50px 0px;
+}
+
+
+
+.name , .insta{
+    font-family: 'Poppins';
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+.insta {
+    font-size: 26px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.copyright {
+    color: var(--white-color);
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.footer {
+    background-color: var(--quinary-color);
+}
+
+.green {
+    color: var(--terniary-color);
 }

@@ -478,7 +478,11 @@ footer .logo-etec {
         font-size: 20px;
     }
 
-    .footer img {
+    .logo-etec {
         width: 45%;
+    }
+
+    .logoFooter {
+        width: 140px;
     }
 }

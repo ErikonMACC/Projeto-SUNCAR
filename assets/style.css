@@ -383,7 +383,12 @@ footer .logo-etec {
     }
 
     .hero .buttonHero .buttonVote {
-        padding: 20px 20% 20px 20%;
+        padding: 20px 21% 20px 21%;
+    }
+
+    .buttonHero {
+        display: flex;
+        justify-content: center;
     }
 
     .boxTwo {
